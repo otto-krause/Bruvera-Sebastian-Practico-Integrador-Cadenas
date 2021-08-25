@@ -1,0 +1,47 @@
+1_ La función gets_s() le da al usuario la forma de introducir una cadena de caracteres. 
+
+2_ La función puts() se usa para mostrar texto en pantalla dentro de un case en reemplazo del printf(). 
+
+3_ Sí, es posible hacerlo, un ejemplo de un printf() así sería: 
+
+  
+
+int main() 
+
+{ 
+
+//Resto de código 
+
+printf("%s/n", /* variable nombrada */); 
+
+return 0; 
+
+} 
+
+  
+
+4_ Sí, se puede utilizar la función scanf(), un ejemplo sería: 
+
+  
+
+int main() 
+
+{ 
+
+//Resto de código 
+
+scanf("%s ", /* variable en la que se guardaría (sin &) */); 
+
+return 0; 
+
+} 
+
+  
+
+5_ La función strlen() devuelve la longitud de una cadena de texto. 
+
+6_ La función atoi() convierte una cadena en un dato de número entero para luego poder restarlo por otro número entero (en este caso, 2012). 
+
+7_ Se crearía un error y el programa no funcionaría. 
+
+8_ La función compara dos cadenas y devuelve un 0 si las cadenas de texto son iguales, un número positivo si la primera cadena es mayor que la segunda y, si es menor, devuelve un valor negativo. 
